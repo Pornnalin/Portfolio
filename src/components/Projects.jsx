@@ -53,30 +53,41 @@ function Projects() {
                   key={index}
                   className="flex flex-col justify-center gap-5 py-10 "
                 >
-                  <p className="text-xl text-center lg:text-2xl font-bold ">
+                  <p className="md:text-2xl text-lg text-center lg:text-2xl font-bold ">
                     {item.name}
                   </p>
-                  <div className="md:mx-10 mx-3">
+                  <div className="md:mx-10 mx-3 flex justify-center">
                     <img
                       src={item.imagePath}
                       alt=""
                       loading="lazy"
-                      className="my-3 self-center rounded-md lg:w-[900px] shadow-[1px_8px_14px_0px_rgba(227,227,227,0.3)]"
+                      className="my-3  rounded-md md:w-[700px] shadow-[1px_8px_14px_0px_rgba(227,227,227,0.3)]"
                     />
                   </div>
-                  <p className="text-sm sm:text-lg">{item.description}</p>
-                  <a
-                    href={item.link}
-                    target="_blank"
-                    className="text-gray-500 hover:text-white transition-all duration-300 ease-in-out self-start text-xl"
-                  >
-                    <FaGithub />
-                  </a>
+                  <p className="text-sm sm:text-lg py-4">{item.description}</p>
+                  <div className="flex flex-row items-start gap-4">
+                    <a
+                      href={item.link}
+                      target="_blank"
+                      className="text-gray-500 hover:text-white transition-all duration-300 ease-in-out self-center text-xl md:text-3xl"
+                    >
+                      <FaGithub />
+                    </a>
+                    {item.linkOn && (
+                      <a
+                        href={item.linkOn}
+                        target="_blank"
+                        className="text-gray-500 hover:text-white transition-all duration-300 ease-in-out self-center text-xl  md:text-2xl"
+                      >
+                        <HiOutlineExternalLink />
+                      </a>
+                    )}
+                  </div>
                   <div className="flex flex-row gap-4 flex-wrap">
                     {item.tools.map((tool, toolIndex) => (
                       <p
                         key={toolIndex}
-                        className="text-[11px] text-gray-500 text-nowrap"
+                        className="text-[11px] md:text-[15px] text-gray-500 text-nowrap"
                       >
                         #{tool}
                       </p>
@@ -92,30 +103,33 @@ function Projects() {
                   key={index}
                   className="flex flex-col justify-center gap-5 py-10 "
                 >
-                  <p className="text-xl text-center capitalize font-bold">
+                  <p className="md:text-2xl text-lg  text-center capitalize font-bold">
                     {item.name}
                   </p>
-                  <div className="mx-10">
+                  <div className="md:mx-10 mx-3 flex justify-center">
                     <img
                       src={item.imagePath}
                       alt=""
                       loading="lazy"
-                      className="my-3 self-center rounded-md lg:w-[900px] shadow-[1px_8px_14px_0px_rgba(227,227,227,0.3)]"
+                      className="my-3 self-center rounded-md md:w-[700px] shadow-[1px_8px_14px_0px_rgba(227,227,227,0.3)]"
                     />
                   </div>
-                  <p className="text-sm sm:text-lg">{item.description}</p>
+                  <p className="text-sm sm:text-lg py-4">{item.description}</p>
                   {item.link && (
                     <a
                       href={item.link}
                       target="_blank"
-                      className="text-gray-500 hover:text-white transition-all duration-300 ease-in-out self-start text-xl"
+                      className="text-gray-500 hover:text-white transition-all duration-300 ease-in-out self-start text-xl  md:text-2xl"
                     >
                       <HiOutlineExternalLink />
                     </a>
                   )}
                   <div className="flex flex-row gap-4">
                     {item.tools.map((tool, toolIndex) => (
-                      <p key={toolIndex} className="text-[12px] text-gray-500">
+                      <p
+                        key={toolIndex}
+                        className="text-[12px] md:text-[15px] text-gray-500"
+                      >
                         #{tool}
                       </p>
                     ))}

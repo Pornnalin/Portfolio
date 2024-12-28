@@ -19,16 +19,24 @@
     {
       "name": "TarotWhisper",
       "imagePath": "/tarot.jpg",
-      "description": "A website that allows users to search for the meaning of tarot cards and randomly draw cards for fortune-telling.",
+      "description": "A personal project that allows users to search for the meaning of tarot cards and randomly draw cards for fortune-telling.",
       "link": "https://github.com/Pornnalin/react-ts-tarot?tab=readme-ov-file",
+      "linkOn": "https://tarotwhisper.netlify.app/",
       "tools": ["React", "Tailwind CSS", "Vite", "TypeScript"]
     },
     {
       "name": "User Management System",
       "imagePath": "/crud.jpg",
-      "description": "A system that allows users to create, delete, update, and edit user names.",
+      "description": "A personal project to create, delete, update, and edit user names using React and a JSON server.",
       "link": "https://github.com/Pornnalin/react-user-management",
       "tools": ["React", "Vite", "Json-server", "Reset-api"]
+    },
+    {
+      "name": "Find Your Perfect Dog Breed",
+      "imagePath": "/dog.jpg",
+      "description": "A personal project that helps users find a dog breed matching their preferences, with categories based on size and detailed breed information.",
+      "link": "https://github.com/Pornnalin/Find-prefect-dog",
+      "tools": ["Html", "Css", "Js"]
     }
   ]
 }

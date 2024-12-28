@@ -2,9 +2,9 @@ function Contact() {
   return (
     <div
       id="contact"
-      className="flex items-center justify-center py-[20px] pb-[60px]"
+      className="flex items-center justify-center pt-20 pb-[100px]"
     >
-      <div className="flex flex-col items-center justify-center gap-3 space-y-6 p-14">
+      <div className="flex flex-col items-center justify-center gap-3 space-y-6 px-14 py-12">
         <h1 className="text-center text-5xl  font-bold">
           <span className="">Get in Touch</span>
         </h1>
