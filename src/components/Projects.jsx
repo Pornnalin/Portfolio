@@ -60,6 +60,7 @@ function Projects() {
                     <img
                       src={item.imagePath}
                       alt=""
+                      loading="lazy"
                       className="my-3 self-center rounded-md lg:w-[900px] shadow-[1px_8px_14px_0px_rgba(227,227,227,0.3)]"
                     />
                   </div>
@@ -98,6 +99,7 @@ function Projects() {
                     <img
                       src={item.imagePath}
                       alt=""
+                      loading="lazy"
                       className="my-3 self-center rounded-md lg:w-[900px] shadow-[1px_8px_14px_0px_rgba(227,227,227,0.3)]"
                     />
                   </div>

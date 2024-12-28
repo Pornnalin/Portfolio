@@ -2,14 +2,14 @@
   "games": [
     {
       "name": "Moral Verse",
-      "imagePath": "/public/moral.jpg",
+      "imagePath": "/moral.jpeg",
       "description": "Moral Verse is a metaverse game where players can participate in various activities to earn points, which can be redeemed for real-world rewards.",
       "link": "https://moralsverse.com/",
       "tools": ["Unity", "C#", "WebGL"]
     },
     {
       "name": "JoyJoy! Surprise Card",
-      "imagePath": "/public/joy.jpg",
+      "imagePath": "/joy.png",
       "description": "Gacha Card Game with Real Rewards is a mobile-optimized 2D gacha game where players can collect vouchers to redeem real-world rewards.",
       "link": "",
       "tools": ["Unity", "C#", "WebGL "]
@@ -18,14 +18,14 @@
   "web": [
     {
       "name": "TarotWhisper",
-      "imagePath": "/public/tarot.jpg",
+      "imagePath": "/tarot.jpg",
       "description": "A website that allows users to search for the meaning of tarot cards and randomly draw cards for fortune-telling.",
       "link": "https://github.com/Pornnalin/react-ts-tarot?tab=readme-ov-file",
       "tools": ["React", "Tailwind CSS", "Vite", "TypeScript"]
     },
     {
       "name": "User Management System",
-      "imagePath": "/public/crud.jpg",
+      "imagePath": "/crud.jpg",
       "description": "A system that allows users to create, delete, update, and edit user names.",
       "link": "https://github.com/Pornnalin/react-user-management",
       "tools": ["React", "Vite", "Json-server", "Reset-api"]
