@@ -9,8 +9,10 @@ function Hero() {
       >
         <h1 className="text-center text-5xl font-bold">Hi,I am Pornnalin</h1>
         <p className="text-sm mx-4 sm:text-lg py-4 text-center lg:mx-40 text-gray-500">
-          I am a developer with 3 years of experience in Unity development,
-          currently learning web development to expand my skill set.
+          As a game developer with 3 years of experience in 2D, 3D, and
+          multiplayer game development, I am currently expanding my skillset to
+          include web development, concentrating on React, Vite, HTML, and CSS
+          to create user-friendly and visually appealing web applications.
         </p>
         <div
           className="flex gap-5 justify-center
