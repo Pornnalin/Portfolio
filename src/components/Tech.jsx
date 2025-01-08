@@ -8,12 +8,12 @@ function Tech() {
   return (
     <div
       id="tech"
-      className="flex flex-col justify-center items-center py-[20px] mt-[120px] gap-9 "
+      className="flex flex-col justify-center items-center py-[20px] mt-[120px] gap-9 animate-fadein "
     >
       <h2 className="text-4xl font-bold text-nowrap py-6 md:text-5xl">
         Technologies
       </h2>
-      <ul className="grid justify-between gap-4 grid-cols-1 sm:grid-cols-3 lg:grid-cols-6 sm:gap-12 xl:gap-28 gap-y-10 ">
+      <ul className="grid justify-between gap-4 grid-cols-1 sm:grid-cols-3 lg:grid-cols-6 sm:gap-12 xl:gap-28 gap-y-10 flex-wrap">
         <li className="text-7xl ">
           <FaJs />
         </li>

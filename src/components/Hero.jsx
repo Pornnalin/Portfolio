@@ -5,7 +5,7 @@ function Hero() {
     <>
       <div
         id="about"
-        className="flex flex-col w-full py-[20px] mt-[190px] justify-center gap-2"
+        className="flex flex-col w-full py-[20px] mt-[190px] justify-center gap-2 animate-fadeindown"
       >
         <h1 className="text-center text-5xl font-bold">Hi,I am Pornnalin</h1>
         <p className="text-sm mx-4 sm:text-lg py-4 text-center lg:mx-40 text-gray-500">

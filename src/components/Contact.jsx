@@ -2,7 +2,7 @@ function Contact() {
   return (
     <div
       id="contact"
-      className="flex items-center justify-center pt-20 pb-[100px]"
+      className="flex items-center justify-center pt-20 pb-[100px] animate-fadein"
     >
       <div className="flex flex-col items-center justify-center gap-3 space-y-6 px-14 py-12">
         <h1 className="text-center text-5xl  font-bold">

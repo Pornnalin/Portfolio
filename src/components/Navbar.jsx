@@ -6,7 +6,7 @@ function Navbar() {
     setIsOpen((prev) => !prev);
   };
   return (
-    <nav className="fixed top-0 z-10 flex w-full items-center justify-between border-b border-b-gray-700 bg-black/50 px-8 py-6 sm:px-[140px] md:px-[60px] text-white backdrop-blur-md">
+    <nav className="fixed top-0 z-10 flex w-full items-center justify-between border-b border-b-gray-700 bg-black/50 px-8 py-6 sm:px-[140px] md:px-[60px] text-white backdrop-blur-md  ">
       <h1 className="text-xl sm:text-2xl uppercase font-bold">portfolio</h1>
       {/* desktop */}
       <div className="hidden sm:flex items-center font-semibold ">

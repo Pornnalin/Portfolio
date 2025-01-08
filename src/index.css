@@ -5,6 +5,30 @@
 body {
   color: white;
   font-family: "Funnel Display", serif;
-  line-height: 1.625;
   letter-spacing: 0.5px;
+  -webkit-font-smoothing: antialiased;
+}
+
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  overflow-wrap: break-word;
+}
+h1,
+h2,
+h3 {
+  line-height: 1;
 }
