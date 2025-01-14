@@ -4,7 +4,7 @@
       "name": "Moral Verse",
       "imagePath": "/moral.jpeg",
       "description": "Moral Verse is a metaverse game where players can participate in various activities to earn points, which can be redeemed for real-world rewards.",
-      "link": "https://moralsverse.com/",
+      "linkOn": "https://moralsverse.com/",
       "tools": ["Unity", "C#", "WebGL"]
     },
     {

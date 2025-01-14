@@ -32,3 +32,12 @@ h2,
 h3 {
   line-height: 1;
 }
+::-webkit-scrollbar-thumb {
+  background-color: #7833ea;
+  border-radius: 10px;
+}
+
+/* กำหนดสีพื้นหลังของ scrollbar */
+::-webkit-scrollbar-track {
+  background: #ea7833;
+}
