@@ -14,7 +14,7 @@ function Hero() {
           id="about"
           className="flex flex-col w-full py-[20px] mt-[190px] justify-center gap-2 "
         >
-          <h1 className="text-center text-5xl font-bold">Hi,I am Pornnalin</h1>
+          <h1 className="text-center text-5xl font-bold ">Hi,I am Pornnalin</h1>
           <p className="text-sm mx-4 sm:text-lg py-4 text-center lg:mx-40 text-gray-500">
             As a game developer with 3 years of experience in 2D, 3D, and
             multiplayer game development, I am currently expanding my skillset

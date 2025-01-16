@@ -25,12 +25,21 @@
       "tools": ["React", "Tailwind CSS", "Vite", "TypeScript"]
     },
     {
+      "name": "Todo Web",
+      "imagePath": "/todo.png",
+      "description": "A personal project where you can create, update, delete, and search notes. Built with React, TypeScript, Vite, and styled with Tailwind CSS.",
+      "link": "https://github.com/Pornnalin/Todo-React-Ts",
+      "linkOn": "https://symphonious-sfogliatella-f442f3.netlify.app/",
+      "tools": ["React", "Vite", "Ts", "Tailwind"]
+    },
+    {
       "name": "User Management System",
-      "imagePath": "/crud.jpg",
+      "imagePath": "/crud.png",
       "description": "A personal project to create, delete, update, and edit user names using React and a JSON server.",
       "link": "https://github.com/Pornnalin/react-user-management",
-      "tools": ["React", "Vite", "Json-server", "Reset-api"]
+      "tools": ["React", "Vite", "Json-server", "Reset-api", "Tailwind"]
     },
+
     {
       "name": "Find Your Perfect Dog Breed",
       "imagePath": "/dog.jpg",

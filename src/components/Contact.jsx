@@ -23,7 +23,7 @@ function Contact() {
         </p>
         <a
           href="mailto:p.pornnalin.s@gmail.com"
-          className="text-nowrap rounded-lg border px-5 py-3 text-lg font-bold text-white shadow-lg  transition-all duration-300 hover:-translate-y-2 hover:shadow-[0px_4px_6px_0px_rgba(147,_51,_234,_0.5)] "
+          className="text-nowrap rounded-lg border px-5 py-3 text-lg font-bold text-white shadow-lg  transition-all duration-300 hover:-translate-y-2 hover:shadow-[0px_8px_10px_-4px_#4800ff]"
         >
           Contact Me
         </a>

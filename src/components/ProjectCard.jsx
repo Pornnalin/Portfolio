@@ -34,7 +34,7 @@ function ProjectCard({
           src={imagePath}
           alt=""
           loading="lazy"
-          className="w-full rounded-2xl transition-all duration-300  hover:scale-105 md:w-[420px] shadow-[1px_8px_14px_0px_rgba(227,227,227,0.3)]"
+          className="w-full rounded-2xl transition-all duration-300 hover:scale-105 md:w-[420px]  object-cover  shadow-[0px_8px_10px_-4px_#4800ff]"
         />
 
         <div className="flex flex-col gap-5">
